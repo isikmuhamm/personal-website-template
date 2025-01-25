@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>John Doe - Blog Posts</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./script/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <h1 class="name">
+                    <a href="./" class="logo-link"></a>
+                </h1>
+                <div class="nav-container">
+                    <button class="menu-btn">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                    <nav class="nav">
+                    <a href="./" class="accent">
+                        <i class="fas fa-arrow-left"></i>
+                        <span data-lang="tr">Ana Sayfaya Dön</span>
+                        <span data-lang="en">Return to Home</span>
+                    </a>
+                    <a href="#resume" class="accent">CV <i class="fas fa-download"></i></a>
+                    <a href="#" class="accent language-switch" onclick="toggleLanguage(event)">
+                        <span data-lang="tr">EN</span>
+                        <span data-lang="en">TR</span>
+                        <i class="fas fa-globe"></i>
+                    </a>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="section">
+            <div class="container">
+                <h2 class="section-title">
+                    <span data-lang="tr">Blog Yazıları</span>
+                    <span data-lang="en">Blog Posts</span>
+                </h2>
+                <div class="projects-list" id="blog-list">
+                    <!-- Blog posts will be loaded dynamically -->
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script type="module" src="./script/utils.js"></script>
+    <script type="module" src="./script/blog.js"></script>
+    <script type="module" src="./script/footer.js"></script>
+</body>
+</html>
