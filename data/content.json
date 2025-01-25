@@ -1,0 +1,371 @@
+{
+  "about": {
+    "name": "John Doe",
+    "image": "./data/profile.jpg",
+    "content": {
+      "tr": "Merhaba! Ben John Doe. Yazılım geliştirme konusunda 5+ yıllık deneyime sahibim. Modern web teknolojileri ve yapay zeka alanlarında uzmanlaşmış bir yazılım mühendisiyim.",
+      "en": "Hello! I'm John Doe. I have 5+ years of experience in software development. I'm a software engineer specialized in modern web technologies and artificial intelligence."
+    },
+    "socialLinks": [
+      {
+        "platform": "github",
+        "icon": "fab fa-github",
+        "url": "https://github.com/johndoe"
+      },
+      {
+        "platform": "linkedin",
+        "icon": "fab fa-linkedin",
+        "url": "https://linkedin.com/in/johndoe"
+      },
+      {
+        "platform": "email",
+        "icon": "fas fa-envelope",
+        "url": "mailto:john@doe.com"
+      },
+      {
+        "platform": "phone",
+        "icon": "fas fa-phone",
+        "url": "tel:+1234567890"
+      }
+    ]
+  },
+  "experience": {
+    "categories": [
+      {
+        "title": {
+          "tr": "Profesyonel Deneyim",
+          "en": "Professional Experience"
+        },
+        "items": [
+          {
+            "title": {
+              "tr": "Kıdemli Yazılım Geliştirici",
+              "en": "Senior Software Developer"
+            },
+            "company": {
+              "name": {
+                "tr": "Tech Şirketi A.Ş.",
+                "en": "Tech Company Inc."
+              },
+              "website": "https://techcompany.com",
+              "logo": "./data/profile.jpg"
+            },
+            "period": "2020 - Present",
+            "description": {
+              "tr": "Modern web uygulamaları geliştirme ve ekip liderliği.",
+              "en": "Development of modern web applications and team leadership."
+            },
+            "tags": ["React", "Node.js", "TypeScript"]
+          },
+          {
+            "title": {
+              "tr": "Yazılım Geliştirici",
+              "en": "Software Developer"
+            },
+            "company": {
+              "name": {
+                "tr": "İnovasyon Teknoloji Ltd.",
+                "en": "Innovation Tech Ltd."
+              },
+              "website": "https://innovtech.com",
+              "logo": "./data/profile.jpg"
+            },
+            "period": "2018 - 2020",
+            "description": {
+              "tr": "Backend sistemleri geliştirme ve API tasarımı.",
+              "en": "Backend systems development and API design."
+            },
+            "tags": ["Python", "Django", "PostgreSQL"]
+          }
+        ]
+      },
+      {
+        "title": {
+          "tr": "Proje Deneyimi",
+          "en": "Project Experience"
+        },
+        "items": [
+          {
+            "title": {
+              "tr": "Teknik Lider - Açık Kaynak Proje",
+              "en": "Technical Lead - Open Source Project"
+            },
+            "company": {
+              "name": {
+                "tr": "Tech Şirketi A.Ş.",
+                "en": "Tech Company Inc."
+              },
+              "website": "https://techcompany.com",
+              "logo": "./data/profile.jpg"
+            },
+            "period": "2019 - 2020",
+            "description": {
+              "tr": "Lorem ipsum dolor sit amet, Türkçe açıklama.",
+              "en": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim ad minim veniam, quis nostrud exercitation."
+            },
+            "tags": ["Python", "Docker", "AWS"]
+          }
+        ]
+      },
+      {
+        "title": {
+          "tr": "Organizasyon Deneyimi",
+          "en": "Organization Experience"
+        },
+        "items": [
+          {
+            "title": {
+              "tr": "Teknoloji Konferansı Organizatörü",
+              "en": "Tech Conference Organizer"
+            },
+            "company": {
+              "name": {
+                "tr": "Tech Şirketi A.Ş.",
+                "en": "Tech Company Inc."
+              },
+              "website": "https://techcompany.com",
+              "logo": "https://picsum.photos/300/300"
+            },
+            "period": "2018 - 2019",
+            "description": {
+              "tr": "Lorem ipsum dolor sit amet, Türkçe açıklama.",
+              "en": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis nostrud exercitation ullamco laboris."
+            },
+            "tags": ["Event Planning", "Team Leadership", "Community Management"]
+          }
+        ]
+      }
+    ]
+  },
+  "skills": {
+    "categories": [
+      {
+        "title": {
+          "tr": "Teknik Yetenekler",
+          "en": "Technical Skills"
+        },
+        "subcategories": [
+          {
+            "title": {
+              "tr": "Programlama Dilleri",
+              "en": "Programming Languages"
+            },
+            "tags": ["JavaScript", "Python", "Java"]
+          },
+          {
+            "title": {
+              "tr": "Frontend",
+              "en": "Frontend"
+            },
+            "tags": ["React", "Vue.js", "HTML/CSS"]
+          },
+          {
+            "title": {
+              "tr": "Backend",
+              "en": "Backend"
+            },
+            "tags": ["Node.js", "Django", "Express"]
+          }
+        ]
+      },
+      {
+        "title": {
+          "tr": "Sosyal Yetenekler",
+          "en": "Soft Skills"
+        },
+        "subcategories": [
+          {
+            "title": {
+              "tr": "Dil Yetenekleri",
+              "en": "Language Skills"
+            },
+            "tags": ["İngilizce (B2)", "Türkçe (C2)"]
+          }
+        ]
+      },
+      {
+        "title": {
+          "tr": "Çalışma ve İlgi Alanlarım",
+          "en": "Focus & Interests"
+        },
+        "subcategories": [
+          {
+            "title": {
+              "tr": "Makine Öğrenmesi",
+              "en": "Machine Learning"
+            },
+            "tags": ["İngilizce (B2)", "Türkçe (C2)"]
+          },
+          {
+            "title": {
+              "tr": "İnsansız Araçlar",
+              "en": "Unmanned Vehicles"
+            },
+            "tags": ["React", "Vue.js", "HTML/CSS"]
+          },
+          {
+            "title": {
+              "tr": "Otonom Sistemler",
+              "en": "Autonomous Systems"
+            },
+            "tags": ["Node.js", "Django", "Express"]
+          }
+        ]
+      }
+    ]
+  },
+  "education": [
+    {
+      "degree": {
+        "tr": "Bilgisayar Bilimleri, Yüksek Lisans",
+        "en": "Computer Science, MSc"
+      },
+      "period": "2016 - 2018",
+      "school": {
+        "name": {
+          "tr": "Lorem Ipsum Üniversitesi",
+          "en": "Lorem Ipsum University"
+        },
+        "website": "https://techcompany.com",
+        "logo": "https://picsum.photos/300/300"
+      },
+      "gpa": "3.85/4.00",
+      "tags": {
+        "tr": ["Algoritmalar", "Makine Öğrenmesi", "Veri Yapıları", "Bilgisayarlı Görü"],
+        "en": ["Algorithms", "Machine Learning", "Data Structures", "Computer Vision"]
+      }
+    },
+    {
+      "degree": {
+        "tr": "Bilgisayar Mühendisliği, Lisans",
+        "en": "Computer Engineering, BSc"
+      },
+      "period": "2012 - 2016",
+      "school": {
+        "name": {
+          "tr": "Tech Ipsum Üniversitesi",
+          "en": "Tech Ipsum University"
+        },
+        "website": "https://techcompany.com",
+        "logo": "https://picsum.photos/300/300"
+      },
+      "gpa": "3.76/4.00",
+      "tags": {
+        "tr": ["Yazılım Mühendisliği", "Veritabanı Sistemleri", "Web Geliştirme", "Ağ Güvenliği"],
+        "en": ["Software Engineering", "Database Systems", "Web Development", "Network Security"]
+      }
+    }
+  ],
+  "gallery": {
+    "images": [
+      {
+        "url": "https://picsum.photos/300/300",
+        "alt": "Gallery 1"
+      },
+      {
+        "url": "https://picsum.photos/800/601",
+        "alt": "Gallery 2"
+      },
+      {
+        "url": "https://picsum.photos/800/602",
+        "alt": "Gallery 3"
+      },
+      {
+        "url": "https://picsum.photos/800/603",
+        "alt": "Gallery 4"
+      },
+      {
+        "url": "https://picsum.photos/800/604",
+        "alt": "Gallery 4"
+      },
+      {
+        "url": "https://picsum.photos/800/605",
+        "alt": "Gallery 4"
+      },
+      {
+        "url": "https://picsum.photos/800/606",
+        "alt": "Gallery 4"
+      },
+      {
+        "url": "https://picsum.photos/800/607",
+        "alt": "Gallery 4"
+      }
+    ]
+  },
+  "usefulLinks": {
+    "categories": [
+      {
+        "title": {
+          "tr": "Teknik Kaynaklar",
+          "en": "Technical Resources"
+        },
+        "icon": "fas fa-book",
+        "links": [
+          {
+            "url": "https://github.com",
+            "title": "GitHub Repositories",
+            "description": "Open source projects and contributions"
+          },
+          {
+            "url": "https://dev.to",
+            "title": "Dev.to",
+            "description": "Technical articles and tutorials"
+          },
+          {
+            "url": "https://medium.com",
+            "title": "Medium",
+            "description": "Technology articles and insights"
+          }
+        ]
+      },
+      {
+        "title": {
+          "tr": "Eğitim Platformları",
+          "en": "Learning Platforms"
+        },
+        "icon": "fas fa-graduation-cap",
+        "links": [
+          {
+            "url": "https://coursera.org",
+            "title": "Coursera",
+            "description": "Online courses and specializations"
+          },
+          {
+            "url": "https://udemy.com",
+            "title": "Udemy",
+            "description": "Programming and development courses"
+          },
+          {
+            "url": "https://freecodecamp.org",
+            "title": "freeCodeCamp",
+            "description": "Free coding tutorials"
+          }
+        ]
+      },
+      {
+        "title": {
+          "tr": "Kullanışlı Araçlar",
+          "en": "Useful Tools"
+        },
+        "icon": "fas fa-tools",
+        "links": [
+          {
+            "url": "https://figma.com",
+            "title": "Figma",
+            "description": "Design and prototyping tool"
+          },
+          {
+            "url": "https://notion.so",
+            "title": "Notion",
+            "description": "Project management and notes"
+          },
+          {
+            "url": "https://code.visualstudio.com",
+            "title": "VS Code",
+            "description": "Code editor"
+          }
+        ]
+      }
+    ]
+  }
+}
