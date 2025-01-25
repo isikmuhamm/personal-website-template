@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./script/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <h1 class="name">
+                    <a href="./" class="logo-link"></a>
+                </h1>
+                <div class="nav-container">
+                    <button class="menu-btn">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                    <nav class="nav">
+                        <a href="#about"><span data-lang="tr">Hakkımda</span><span data-lang="en">About</span></a>
+                        <a href="#blogs"><span data-lang="tr">Blog</span><span data-lang="en">Blog</span></a>
+                        <a href="#projects"><span data-lang="tr">Projeler</span><span data-lang="en">Projects</span></a>
+                        <a href="#experience"><span data-lang="tr">Deneyim</span><span data-lang="en">Experience</span></a>
+                        <a href="#gallery"><span data-lang="tr">Galeri</span><span data-lang="en">Gallery</span></a>
+                        <a href="#useful-links"><span data-lang="tr">Bağlantılar</span><span data-lang="en">Links</span></a>
+                        <a href="#resume" class="accent">CV <i class="fas fa-download"></i></a>
+                        <a href="#" class="accent language-switch" onclick="toggleLanguage(event)">
+                            <span data-lang="tr" class="lang-visible">EN</span>
+                            <span data-lang="en" class="lang-visible">TR</span>
+                            <i class="fas fa-globe"></i>
+                        </a>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- About Section -->
+        <section id="about" class="section">
+            <div class="container">
+                <h2 class="section-title">
+                    <span data-lang="tr">Hakkımda</span>
+                    <span data-lang="en">About Me</span>
+                </h2>
+                <div class="about-section">
+                    <div class="about-content">
+                        <p data-lang="tr"></p>
+                        <p data-lang="en"></p>
+                        <div class="social-links"></div>
+                    </div>
+                    <img src="" alt="Profile" class="profile-image">
+                </div>
+            </div>
+        </section>
+
+        <!-- Blog Section -->
+        <section id="blogs" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">
+                        <span data-lang="tr">Blog Yazıları</span>
+                        <span data-lang="en">Blog Posts</span>
+                    </h2>
+                    <a href="./blog.html" class="view-all">
+                        <span data-lang="tr">Tümünü Gör</span>
+                        <span data-lang="en">View All</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+                <div class="projects-grid" id="blog-cards"></div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">
+                        <span data-lang="tr">Projeler</span>
+                        <span data-lang="en">Projects</span>
+                    </h2>
+                    <a href="./projects.html" class="view-all">
+                        <span data-lang="tr">Tümünü Gör</span>
+                        <span data-lang="en">View All</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+                <div class="projects-grid" id="project-cards"></div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience" class="section">
+            <div class="container">
+                <h2 class="section-title">
+                    <span data-lang="tr">Deneyim</span>
+                    <span data-lang="en">Experience</span>
+                </h2>
+                <!-- Experience content will be loaded dynamically -->
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="section">
+            <div class="container">
+                <h2 class="section-title">
+                    <span data-lang="tr">Yetenekler</span>
+                    <span data-lang="en">Skills</span>
+                </h2>
+                <!-- Skills content will be loaded dynamically -->
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education" class="section">
+            <div class="container">
+                <h2 class="section-title">
+                    <span data-lang="tr">Eğitim</span>
+                    <span data-lang="en">Education</span>
+                </h2>
+                <!-- Education content will be loaded dynamically -->
+            </div>
+        </section>
+
+        <!-- Gallery Section -->
+        <section id="gallery" class="section">
+            <div class="container">
+                <h2 class="section-title">
+                    <span data-lang="tr">Galeri</span>
+                    <span data-lang="en">Gallery</span>
+                </h2>
+                <div class="gallery">
+                    <!-- Gallery content will be loaded dynamically -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Useful Links Section -->
+        <section id="useful-links" class="section">
+            <div class="container">
+                <h2 class="section-title">
+                    <span data-lang="tr">Faydalı Linkler</span>
+                    <span data-lang="en">Useful Links</span>
+                </h2>
+                <div class="links-grid">
+                    <!-- Links content will be loaded dynamically -->
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Lightbox -->
+    <div class="lightbox">
+        <div class="lightbox-close">
+            <i class="fas fa-times"></i>
+        </div>
+        <div class="lightbox-content">
+            <img src="" alt="Lightbox Image" class="lightbox-image">
+            <div class="lightbox-nav">
+                <button class="lightbox-btn prev-btn">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+                <button class="lightbox-btn next-btn">
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <button class="scroll-to-top" aria-label="Scroll to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script type="module" src="./script/utils.js"></script>
+    <script type="module" src="./script/script.js"></script>
+    <script type="module" src="./script/footer.js"></script>
+    <script type="module">
+        import { loadSiteContent } from './script/content-loader.js';
+        document.addEventListener('DOMContentLoaded', () => {
+            loadSiteContent();
+        });
+    </script>
+</body>
+</html>
