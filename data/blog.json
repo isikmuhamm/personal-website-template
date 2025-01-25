@@ -1,0 +1,84 @@
+{
+    "posts": [
+        {
+            "id": 1,
+            "title": {
+                "tr": "Modern Web Geliştirmede En İyi Pratikler",
+                "en": "Best Practices in Modern Web Development"
+            },
+            "summary": {
+                "tr": "Modern web geliştirme süreçlerinde kullanılan en etkili yöntemler ve teknikler.",
+                "en": "The most effective methods and techniques used in modern web development processes."
+            },
+            "content": {
+                "tr": "# Modern Web Geliştirme\n\nGünümüzde web geliştirme süreçleri sürekli evrim geçiriyor. Bu yazıda, modern web uygulamaları geliştirirken dikkat edilmesi gereken önemli noktaları ele alacağız.\n\n## Performans Optimizasyonu\n\n- Kod bölme ve lazy loading\n- Resim optimizasyonu\n- Caching stratejileri\n\n## Güvenlik\n\n- XSS koruması\n- CSRF tokenları\n- Input validasyonu",
+                "en": "# Modern Web Development\n\nWeb development processes are constantly evolving today. In this article, we'll discuss important points to consider when developing modern web applications.\n\n## Performance Optimization\n\n- Code splitting and lazy loading\n- Image optimization\n- Caching strategies\n\n## Security\n\n- XSS protection\n- CSRF tokens\n- Input validation"
+            },
+            "image": "https://picsum.photos/800/400",
+            "author": "John Doe",
+            "tags": ["Web Development", "Performance", "Security"],
+            "date": "2023-06-15",
+            "readTime": 8
+        },
+        {
+            "id": 2,
+            "title": {
+                "tr": "Yapay Zeka ve Web Teknolojileri",
+                "en": "AI and Web Technologies"
+            },
+            "summary": {
+                "tr": "Web uygulamalarında yapay zeka kullanımı ve pratik örnekler.",
+                "en": "Using artificial intelligence in web applications and practical examples."
+            },
+            "content": {
+                "tr": "# AI ve Web\n\nYapay zeka teknolojileri web uygulamalarında giderek daha fazla kullanılıyor. Bu makalede, web projelerinize nasıl AI entegre edebileceğinizi öğreneceksiniz.\n\n## Kullanım Alanları\n\n- Chatbotlar\n- Öneri sistemleri\n- Görüntü işleme\n\n## Popüler Teknolojiler\n\n- TensorFlow.js\n- ML5.js\n- Brain.js",
+                "en": "# AI and Web\n\nArtificial intelligence technologies are increasingly being used in web applications. In this article, you'll learn how to integrate AI into your web projects.\n\n## Use Cases\n\n- Chatbots\n- Recommendation systems\n- Image processing\n\n## Popular Technologies\n\n- TensorFlow.js\n- ML5.js\n- Brain.js"
+            },
+            "image": "https://picsum.photos/800/401",
+            "author": "John Doe",
+            "tags": ["AI", "Machine Learning", "Web Development"],
+            "date": "2023-07-01",
+            "readTime": 10
+        },
+        {
+            "id": 3,
+            "title": {
+                "tr": "Mikroservis Mimarisi: Avantajlar ve Zorluklar",
+                "en": "Microservice Architecture: Benefits and Challenges"
+            },
+            "summary": {
+                "tr": "Mikroservis mimarisinin modern uygulamalardaki rolü ve dikkat edilmesi gereken noktalar.",
+                "en": "The role of microservice architecture in modern applications and points to consider."
+            },
+            "content": {
+                "tr": "# Mikroservis Mimarisi\n\nMonolitik uygulamalardan mikroservislere geçiş sürecinde karşılaşılan zorluklar ve çözüm önerileri.\n\n## Avantajlar\n\n- Ölçeklenebilirlik\n- Bağımsız deployment\n- Teknoloji çeşitliliği\n\n## Zorluklar\n\n- Dağıtık sistem kompleksliği\n- Service discovery\n- Veri tutarlılığı",
+                "en": "# Microservice Architecture\n\nChallenges encountered in the transition from monolithic applications to microservices and proposed solutions.\n\n## Benefits\n\n- Scalability\n- Independent deployment\n- Technology diversity\n\n## Challenges\n\n- Distributed system complexity\n- Service discovery\n- Data consistency"
+            },
+            "image": "https://picsum.photos/800/402",
+            "author": "John Doe",
+            "tags": ["Microservices", "Architecture", "DevOps"],
+            "date": "2023-08-15",
+            "readTime": 12
+        },
+        {
+            "id": 4,
+            "title": {
+                "tr": "Web3 ve Merkeziyetsiz Uygulamalar",
+                "en": "Web3 and Decentralized Applications"
+            },
+            "summary": {
+                "tr": "Web3 teknolojileri ve merkeziyetsiz uygulama geliştirme süreçleri.",
+                "en": "Web3 technologies and decentralized application development processes."
+            },
+            "content": {
+                "tr": "# Web3 Geliştirme\n\nBlockchain tabanlı uygulamaların geleceği ve geliştirme süreçleri.\n\n## Temel Kavramlar\n\n- Akıllı kontratlar\n- Token standartları\n- DeFi protokolleri\n\n## Geliştirme Araçları\n\n- Truffle Suite\n- Hardhat\n- Web3.js/Ethers.js",
+                "en": "# Web3 Development\n\nThe future of blockchain-based applications and development processes.\n\n## Key Concepts\n\n- Smart contracts\n- Token standards\n- DeFi protocols\n\n## Development Tools\n\n- Truffle Suite\n- Hardhat\n- Web3.js/Ethers.js"
+            },
+            "image": "https://picsum.photos/800/403",
+            "author": "John Doe",
+            "tags": ["Web3", "Blockchain", "DeFi"],
+            "date": "2023-09-01",
+            "readTime": 15
+        }
+    ]
+}

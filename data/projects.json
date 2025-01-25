@@ -1,0 +1,104 @@
+{
+    "projects": [
+        {
+            "id": 1,
+            "title": {
+                "tr": "E-Ticaret Platformu",
+                "en": "E-Commerce Platform"
+            },
+            "description": {
+                "tr": "Modern bir e-ticaret platformu geliştirme projesi. Kullanıcı dostu arayüz ve gelişmiş ödeme sistemleri.",
+                "en": "Development of a modern e-commerce platform. User-friendly interface and advanced payment systems."
+            },
+            "longDescription": {
+                "tr": "Bu proje kapsamında, modern web teknolojileri kullanılarak kapsamlı bir e-ticaret platformu geliştirildi. Projede öne çıkan özellikler: Gerçek zamanlı stok takibi, gelişmiş arama sistemi, çoklu ödeme seçenekleri, admin paneli ve analitik dashboard.",
+                "en": "In this project, a comprehensive e-commerce platform was developed using modern web technologies. Key features include: Real-time inventory tracking, advanced search system, multiple payment options, admin panel and analytics dashboard."
+            },
+            "thumbnail": "https://picsum.photos/400/200",
+            "images": [
+                "https://picsum.photos/800/600",
+                "https://picsum.photos/800/601",
+                "https://picsum.photos/800/602"
+            ],
+            "technologies": ["React", "Node.js", "MongoDB", "Redis", "AWS"],
+            "liveUrl": "https://example.com",
+            "githubUrl": "https://github.com/example",
+            "date": "2023-01-15"
+        },
+        {
+            "id": 2,
+            "title": {
+                "tr": "Yapay Zeka Görüntü Tanıma",
+                "en": "AI Image Recognition"
+            },
+            "description": {
+                "tr": "Derin öğrenme modelleri kullanarak gerçek zamanlı nesne tanıma sistemi.",
+                "en": "Real-time object detection system using deep learning models."
+            },
+            "longDescription": {
+                "tr": "TensorFlow ve OpenCV kullanılarak geliştirilen bu proje, gerçek zamanlı video akışında nesne tespiti yapabiliyor. Transfer learning ile önceden eğitilmiş modeller kullanıldı.",
+                "en": "Developed using TensorFlow and OpenCV, this project can detect objects in real-time video streams. Pre-trained models were used with transfer learning."
+            },
+            "thumbnail": "https://picsum.photos/400/201",
+            "images": [
+                "https://picsum.photos/800/603",
+                "https://picsum.photos/800/604",
+                "https://picsum.photos/800/605"
+            ],
+            "technologies": ["Python", "TensorFlow", "OpenCV", "CUDA", "Docker"],
+            "liveUrl": "https://example.com/demo",
+            "githubUrl": "https://github.com/example/ai-vision",
+            "date": "2023-03-20"
+        },
+        {
+            "id": 3,
+            "title": {
+                "tr": "Akıllı Ev Otomasyon Sistemi",
+                "en": "Smart Home Automation System"
+            },
+            "description": {
+                "tr": "IoT cihazları ile entegre çalışan kapsamlı ev otomasyon sistemi.",
+                "en": "Comprehensive home automation system integrated with IoT devices."
+            },
+            "longDescription": {
+                "tr": "Raspberry Pi ve Arduino tabanlı sensörler kullanılarak geliştirilen bu sistem, ev içi sıcaklık kontrolü, aydınlatma otomasyonu, güvenlik kameraları ve enerji tüketimi takibi gibi özellikleri tek bir arayüzden yönetmeyi sağlıyor.",
+                "en": "Developed using Raspberry Pi and Arduino-based sensors, this system enables managing features like indoor temperature control, lighting automation, security cameras, and energy consumption monitoring from a single interface."
+            },
+            "thumbnail": "https://picsum.photos/400/203",
+            "images": [
+                "https://picsum.photos/800/606",
+                "https://picsum.photos/800/607",
+                "https://picsum.photos/800/608"
+            ],
+            "technologies": ["Raspberry Pi", "Arduino", "React", "Node.js", "MQTT", "WebSockets"],
+            "liveUrl": "https://example.com/smart-home",
+            "githubUrl": "https://github.com/example/smart-home",
+            "date": "2023-05-10"
+        },
+        {
+            "id": 4,
+            "title": {
+                "tr": "Blockchain Tabanlı Oylama Sistemi",
+                "en": "Blockchain-Based Voting System"
+            },
+            "description": {
+                "tr": "Güvenli ve şeffaf elektronik oylama için blockchain tabanlı çözüm.",
+                "en": "Blockchain-based solution for secure and transparent electronic voting."
+            },
+            "longDescription": {
+                "tr": "Ethereum akıllı kontratları kullanılarak geliştirilen bu sistem, manipülasyona karşı korumalı, anonim ve şeffaf bir oylama mekanizması sunuyor. Sistem, kullanıcı doğrulama, oy verme ve sonuç sayımı süreçlerini otomatize ediyor.",
+                "en": "Developed using Ethereum smart contracts, this system provides a tamper-proof, anonymous, and transparent voting mechanism. The system automates user verification, voting, and result counting processes."
+            },
+            "thumbnail": "https://picsum.photos/400/204",
+            "images": [
+                "https://picsum.photos/800/609",
+                "https://picsum.photos/800/610",
+                "https://picsum.photos/800/611"
+            ],
+            "technologies": ["Solidity", "Web3.js", "React", "Node.js", "MetaMask", "IPFS"],
+            "liveUrl": "https://example.com/blockchain-vote",
+            "githubUrl": "https://github.com/example/blockchain-vote",
+            "date": "2023-08-01"
+        }
+    ]
+}
