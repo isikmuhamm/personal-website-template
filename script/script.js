@@ -34,72 +34,74 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 });
 
 // Lightbox functionality
-const lightbox = document.querySelector('.lightbox');
-const lightboxImage = lightbox.querySelector('.lightbox-image');
-const prevBtn = lightbox.querySelector('.prev-btn');
-const nextBtn = lightbox.querySelector('.next-btn');
-const closeBtn = lightbox.querySelector('.lightbox-close');
-const galleryItems = document.querySelectorAll('.gallery-item');
-let currentImageIndex = 0;
+function initLightbox() {
+    const lightbox = document.querySelector('.lightbox');
+    const lightboxImage = lightbox.querySelector('.lightbox-image');
+    const prevBtn = lightbox.querySelector('.prev-btn');
+    const nextBtn = lightbox.querySelector('.next-btn');
+    const closeBtn = lightbox.querySelector('.lightbox-close');
+    const galleryItems = document.querySelectorAll('.gallery-item');
+    let currentImageIndex = 0;
 
-// Gallery image URLs array
-const images = Array.from(galleryItems).map(item => 
-    item.querySelector('img').src
-);
+    // Gallery image URLs array
+    const images = Array.from(galleryItems).map(item => 
+        item.querySelector('img').src
+    );
 
-// Gallery click events
-galleryItems.forEach((item, index) => {
-    item.addEventListener('click', () => {
-        currentImageIndex = index;
-        updateLightboxImage();
-        lightbox.classList.add('active');
-        document.body.style.overflow = 'hidden';
+    // Gallery click events
+    galleryItems.forEach((item, index) => {
+        item.addEventListener('click', () => {
+            currentImageIndex = index;
+            updateLightboxImage();
+            lightbox.classList.add('active');
+            document.body.style.overflow = 'hidden';
+        });
     });
-});
 
-// Lightbox controls
-closeBtn.addEventListener('click', closeLightbox);
-lightbox.addEventListener('click', (e) => {
-    if (e.target === lightbox) {
-        closeLightbox();
+    // Lightbox controls
+    closeBtn.addEventListener('click', closeLightbox);
+    lightbox.addEventListener('click', (e) => {
+        if (e.target === lightbox) {
+            closeLightbox();
+        }
+    });
+
+    function closeLightbox() {
+        lightbox.classList.remove('active');
+        document.body.style.overflow = '';
     }
-});
 
-function closeLightbox() {
-    lightbox.classList.remove('active');
-    document.body.style.overflow = '';
-}
-
-prevBtn.addEventListener('click', (e) => {
-    e.stopPropagation();
-    currentImageIndex = (currentImageIndex - 1 + images.length) % images.length;
-    updateLightboxImage();
-});
-
-nextBtn.addEventListener('click', (e) => {
-    e.stopPropagation();
-    currentImageIndex = (currentImageIndex + 1) % images.length;
-    updateLightboxImage();
-});
-
-function updateLightboxImage() {
-    lightboxImage.src = images[currentImageIndex];
-}
-
-// Keyboard controls
-document.addEventListener('keydown', (e) => {
-    if (!lightbox.classList.contains('active')) return;
-
-    if (e.key === 'Escape') {
-        closeLightbox();
-    } else if (e.key === 'ArrowLeft') {
+    prevBtn.addEventListener('click', (e) => {
+        e.stopPropagation();
         currentImageIndex = (currentImageIndex - 1 + images.length) % images.length;
         updateLightboxImage();
-    } else if (e.key === 'ArrowRight') {
+    });
+
+    nextBtn.addEventListener('click', (e) => {
+        e.stopPropagation();
         currentImageIndex = (currentImageIndex + 1) % images.length;
         updateLightboxImage();
+    });
+
+    function updateLightboxImage() {
+        lightboxImage.src = images[currentImageIndex];
     }
-});
+
+    // Keyboard controls
+    document.addEventListener('keydown', (e) => {
+        if (!lightbox.classList.contains('active')) return;
+
+        if (e.key === 'Escape') {
+            closeLightbox();
+        } else if (e.key === 'ArrowLeft') {
+            currentImageIndex = (currentImageIndex - 1 + images.length) % images.length;
+            updateLightboxImage();
+        } else if (e.key === 'ArrowRight') {
+            currentImageIndex = (currentImageIndex + 1) % images.length;
+            updateLightboxImage();
+        }
+    });
+}
 
 // Logo click handler
 const logoLink = document.querySelector('.logo-link');
@@ -150,6 +152,9 @@ async function init() {
                 .map(templates.createHomeProjectCard)
                 .join('');
         }
+
+        // Initialize lightbox after content is loaded
+        initLightbox();
 
     } catch (error) {
         console.error('Error initializing sections:', error);

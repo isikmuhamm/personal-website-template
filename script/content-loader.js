@@ -241,6 +241,11 @@ function updateGallery(gallery) {
                 <img src="${img.url}" alt="${img.alt}">
             </div>
         `).join('');
+    
+    // Re-initialize lightbox after gallery content is loaded
+    if (typeof initLightbox === 'function') {
+        initLightbox();
+    }
 }
 
 function updateUsefulLinks(usefulLinks) {
