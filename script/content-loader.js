@@ -212,7 +212,7 @@ function updateEducation(education) {
                 </div>
                 <span>${item.period}</span>
             </div>
-            <p>GPA: ${item.gpa}</p>
+            ${item.gpa? `<p>GPA: ${item.gpa}</p>` : ''}
             <div class="tags">
                 ${item.tags.tr.map((tag, index) => `
                     <span class="tag">
